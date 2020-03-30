@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://ichord.github.io/Caret.js/src/jquery.caret.js"></script>
+    
+
+    <style>
+        html,
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: #ffc600;
+            color: white;
+        }
+        .wrapper{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            height: 100vh;
+        }
+        .content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+        }
+        h1{
+            margin: 0;
+        }
+        .area-border{
+            border: white;
+        }
+    </style>
+    
+    <title>Slash Command</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <h1 id="command">$.slasher</h1>
+            <textarea name="textarea" class="area-border" id="text" cols="30" rows="10"></textarea>
+        </div>
+    </div>
+    <script src="src/jquery.slasher.js"></script>
+    <script src="src/script.js"></script>
+</body>
+</html>

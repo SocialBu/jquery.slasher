@@ -1,0 +1,26 @@
+{
+  "name": "jquery.slasher",
+  "version": "1.0.0",
+  "description": "A sipmle plugin that helps you build slash commands in your project",
+  "main": "jquery.slasher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SocialBu/jquery.slasher.git"
+  },
+  "author": "Socialbu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SocialBu/jquery.slasher/issues"
+  },
+  "homepage": "https://github.com/SocialBu/jquery.slasher#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-terser": "^1.2.0"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}

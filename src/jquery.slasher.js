@@ -19,12 +19,12 @@
         apple: 'ape',
         banana: 'ban',
         items: []
-      }, options)
+      }, options);
       //checking if the user provided custom classes
-      let itemClasses = settings.cssClasses && settings.cssClasses.dropdownListItemClasses ? settings.cssClasses.dropdownListItemClasses : 'dropdown-item d-flex flex-column'
-      let commandClasses = settings.cssClasses && settings.cssClasses.commandClasses ? settings.cssClasses.commandClasses : ' text-capitalize'
-      let descriptionClasses = settings.cssClasses && settings.cssClasses.descriptionClasses ? settings.cssClasses.descriptionClasses : 'text-muted'
-      let dropdownList = settings.cssClasses && settings.cssClasses.dropdownListClasses ? settings.cssClasses.dropdownListClasses : 'dropdown-menu'
+      let dropdownList = settings.cssClasses && settings.cssClasses.dropdownMenuClasses ? settings.cssClasses.dropdownMenuClasses : 'dropdown-menu'
+      let itemClasses = settings.cssClasses && settings.cssClasses.dropdownMenuItemClasses ? settings.cssClasses.dropdownMenuItemClasses : 'dropdown-item d-flex flex-column'
+      let commandClasses = settings.cssClasses && settings.cssClasses.commandTitleClasses ? settings.cssClasses.commandTitleClasses : ' text-capitalize'
+      let descriptionClasses = settings.cssClasses && settings.cssClasses.commandDescriptionClasses ? settings.cssClasses.commandDescriptionClasses : 'text-muted'
       let ActiveItemClass = settings.cssClasses.dropdownActiveItemClasses ? settings.cssClasses.dropdownActiveItemClasses : 'bg-light'
       let zIndex = settings.zIndex ? settings.zIndex: '10000'
       
@@ -140,5 +140,5 @@
         })
       })
     }        
-  }))
+  })) 
   
